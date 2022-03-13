@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - starts at main 
+ *main - starts at main
  *uses printf command and
  *Return: zero
  */
