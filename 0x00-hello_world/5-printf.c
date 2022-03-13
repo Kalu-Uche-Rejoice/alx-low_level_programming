@@ -1,9 +1,11 @@
 #include <stdio.h>
-/*
- * starts at main 
+/**
+ * main - starts at main 
  * uses printf command and
- * returns zero*/
-int main(){
+ * Return: zero
+ */
+int main(void)
+{
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
