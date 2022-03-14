@@ -5,9 +5,7 @@
 /**
  * this program generates random numbers and checks
  * if they are negative or positive
- * 
  * main - The program starts here
- * 
  * Return: zero
  */
 int main(void)
