@@ -22,6 +22,7 @@ int main(void)
 		{
 			break;
 		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
