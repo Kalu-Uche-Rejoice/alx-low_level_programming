@@ -18,7 +18,7 @@ int main(void)
 	while (c <= 'z')
 	{
 		putchar(c);
-		if (c == 'g')
+		if (c == 'f')
 		{
 			break;
 		}
