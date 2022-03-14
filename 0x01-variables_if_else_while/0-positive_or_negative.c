@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * This program generates random numbers and checks
- * if they are negative or positive
  * main - The program starts here
- * the main function is performs the actions for the program
+ * Description: the main function generates random numbers and checks them
+ * if they are positive, negative, or zero
  * Return: zero
  */
 int main(void)
