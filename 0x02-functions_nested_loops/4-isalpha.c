@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * isalpha - function to detect an ASCII letter
+ * _isalpha - function to detect an ASCII letter
  * Description: uses conditional statements
+ * @c: argument to be tested
  * Return: integer
  */
 int _isalpha(int c)

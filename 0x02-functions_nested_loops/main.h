@@ -34,3 +34,10 @@ int _islower(int c);
  */
 int _isalpha(int c);
 
+/**
+ * print_sign - checks sign of argument
+ * Description: uses conditional if
+ * @n: conditional argument
+ * Return: 1 for positive 0 for negative -1 for negative
+ */
+int print_sign(int n);
