@@ -4,7 +4,7 @@
  * Description: uses nested loops
  * Retun: void
  */
-void jack_bauer(void)
+void jack_bauer()
 {
 	int m;
 	int h
