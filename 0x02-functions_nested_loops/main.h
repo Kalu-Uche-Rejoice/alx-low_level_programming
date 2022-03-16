@@ -57,7 +57,19 @@ int _abs(int);
  * Return: x
  */
 int print_last_digit(int n);
+/**
+ * jack_bauer - computes all times of the day in minutes and hours
+ * Description: uses nested while loops
+ * Return: void
+ */
 void jack_bauer(void);
+
+/**
+ * times_table -computes a table of multiples from 0 to 9
+ * Description: uses nested for loops
+ * Return: void
+ */
 void times_table(void);
+
 int add (int a, int b);
 void print_to_98(int n);
