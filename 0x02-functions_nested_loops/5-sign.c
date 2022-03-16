@@ -1,7 +1,7 @@
 # include "main.h"
 /**
  * print_sign - checks the sign of a number
- * Description: uses conditional if 
+ * Description: uses conditional if
  * @n: argument whose sign is tested
  * Return: 1 for positive 0 for zero -1 for negative
  */

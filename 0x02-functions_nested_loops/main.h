@@ -41,3 +41,10 @@ int _isalpha(int c);
  * Return: 1 for positive 0 for negative -1 for negative
  */
 int print_sign(int n);
+
+/**
+ * _abs - computes absolute value
+ * Description: uses conditional if
+ * Retuns absolute value of argument
+ */
+int _abs(int);
