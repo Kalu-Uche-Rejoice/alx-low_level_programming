@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet - it returns alphabets to main
  * Description: The function uses put char and while loops
@@ -10,18 +10,8 @@ void print_alphabet(void)
 	
 	while (alpha <= 'z')
 	{
-		putchar(alpha);
+		_putchar(alpha);
 		alpha++;
 	}
-}
-/**
- * main - program executes here
- * Description: it calls function print_alphabet
- * Return: 0
- */
-int main(void)
-{
-	print_alphabet();
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
