@@ -17,8 +17,8 @@ void times_table(void)
 
 			if ( p > 9)
 			{
-				_putchar('0' + (p / 10);
-				_putchar('0' + (p % 10);
+				_putchar('0' + (p / 10));
+				_putchar('0' + (p % 10));
 				_putchar(',');
 				_putchar(' ');
 			}
@@ -28,8 +28,8 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			j++;
+			j++ ;
 		}
-		i++;
+		i++ ;
 	}
 }
