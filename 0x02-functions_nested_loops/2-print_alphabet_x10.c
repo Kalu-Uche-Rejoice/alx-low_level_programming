@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet - it returns alphabets to main
  * Description: The function uses put char and while loops
