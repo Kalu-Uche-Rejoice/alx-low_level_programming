@@ -25,3 +25,12 @@ void print_alphabet_x10(void);
  * Return: 1 for true, 0 otherwise
  */
 int _islower(int c);
+
+/**
+ * _isalpha -checks if argument is an alphabet
+ * Description: uses conditional if
+ * @c: argument to be checked
+ * Return: 1 for true, 0 otherwise
+ */
+int _isalpha(int c);
+

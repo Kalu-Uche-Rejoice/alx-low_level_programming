@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * isalpha - function to detect an ASCII letter
  * Description: uses conditional statements
@@ -18,15 +18,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-}
-/**
- * main - calls isalpha
- * Description: executes other functions
- * Return: 0
- */
-int main(void)
-{
-	int n = _isalpha('H');
-	printf("%d\n",n);
-	return (0);
 }
