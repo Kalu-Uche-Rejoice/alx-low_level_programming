@@ -48,3 +48,12 @@ int print_sign(int n);
  * Retuns absolute value of argument
  */
 int _abs(int);
+
+/**
+ * print_last_digit - copmutes last digit of a number
+ * Description: uses modulus of base 10
+ * @n: agrument that contains digit
+ * @x: value to be returned ie. last digit
+ * Return: x
+ */
+int print_last_digit(int n);

@@ -1,7 +1,8 @@
 # include "main.h"
 /**
  * _abs - generates absolute value
- * Description: uses conditional if 
+ * Description: uses conditional if
+ * @n : argument that results absolute
  * Return: absolute value of number
  */
 int _abs(int n)
