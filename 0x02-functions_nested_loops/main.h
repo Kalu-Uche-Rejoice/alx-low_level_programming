@@ -18,3 +18,10 @@ void print_alphabet(void);
  * Return: void
  */
 void print_alphabet_x10(void);
+
+/**
+ * _islower - checks if letter is lowercase
+ * Description: uses conditional if
+ * Return: 1 for true, 0 otherwise
+ */
+int _islower(int c);
