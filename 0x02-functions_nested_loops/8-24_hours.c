@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * jack_bauer - computes every minute of the day
  * Description: uses nested loops
