@@ -4,7 +4,7 @@
  * Description: The function uses put char and while loops
  * Retun: void
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char alpha = 'a';
 	int n = 0;

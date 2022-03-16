@@ -12,3 +12,9 @@ int _putchar(char c);
  */
 void print_alphabet(void);
 
+/**
+ * print_alphabet_x10 - prints lower case alphabets 10 times
+ * Description: uses _putchar and nested while loops
+ * Return: void
+ */
+void print_alphabet_x10(void);
