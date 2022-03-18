@@ -14,7 +14,7 @@ int main(void)
 	{
 		if ((i % 3) != 0 && (i % 5) != 0)
 		{
-			printf("%d",i);
+			printf("%d", i);
 		}
 		else if (i % 3 == 0)
 		{
