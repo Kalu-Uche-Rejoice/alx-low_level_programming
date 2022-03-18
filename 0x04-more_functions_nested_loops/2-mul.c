@@ -5,7 +5,7 @@
  * Description: uses *
  * @a: argument representing integer
  * @b: argument for integer
- * Retun: multiple
+ * Return: multiple
  */
 int mul(int a, int b)
 {
