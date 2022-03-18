@@ -21,6 +21,6 @@ void print_line(int n)
 	}
 	else
 	{
-		_puthchar('\n');
+		_putchar('\n');
 	}
 }
