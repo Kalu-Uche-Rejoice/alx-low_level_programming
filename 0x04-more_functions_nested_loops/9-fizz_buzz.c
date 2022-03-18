@@ -18,11 +18,11 @@ int main(void)
 		}
 		else if (i % 3 == 0)
 		{
-			printf("fizz");
+			printf("Fizz");
 		}
 		if (i % 5 == 0)
 		{
-			printf("buzz");
+			printf("Buzz");
 		}
 		if (i < 100)
 		{
