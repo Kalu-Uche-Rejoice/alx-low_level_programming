@@ -18,3 +18,5 @@ void _puts(char *str);
  * print_array - prints array contents
  */
 void print_array(int *a, int n);
+void print_rev(char *s);
+
