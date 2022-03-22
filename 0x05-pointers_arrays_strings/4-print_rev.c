@@ -17,12 +17,9 @@ void print_rev(char *s)
 		i += 1;
 		s++;
 	}
-	while (j < k)
+	for (i--; i >= 0; i--)
 	{
-		t = *(s + j);
-		*(s + j) = *(s + k);
-		*(s + k) = t;
-		_putchar(s[j]);
-		j++, k--;
+		_putchar(s[i]);
 	}
+	_putchar('\n');
 }
