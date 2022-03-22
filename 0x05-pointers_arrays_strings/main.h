@@ -14,3 +14,7 @@ int _strlen(char *s);
  * _puts - prints a string, followed by a newline to stdout
  */
 void _puts(char *str);
+/**
+ * print_array - prints array contents
+ */
+void print_array(int *a, int n);
