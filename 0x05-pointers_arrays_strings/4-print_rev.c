@@ -8,7 +8,7 @@
 void print_rev(char *s)
 {
 	int i = 0;
-	char *t;
+	char t;
 	int j = 0;
 	int k = i - 1;
 
@@ -19,9 +19,9 @@ void print_rev(char *s)
 	}
 	while (j < k)
 	{
-		*t = *(s + j);
+		t = *(s + j);
 		*(s + j) = *(s + k);
-		*(s + k) = *t;
+		*(s + k) = t;
 		j++, k--;
 	}
 }
