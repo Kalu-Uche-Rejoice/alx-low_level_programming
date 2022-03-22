@@ -14,15 +14,15 @@ void print_rev(char *s)
 		i += 1;
 		s++;
 	}
-	char temp;
+	char t;
 	int j = 0;
 	int k = i - 1;
 	
 	while (j < k)
 	{
-		temp = *(s + j);
+		t = *(s + j);
 		*(s + j) = *(s + k);
-		*(s + k) = temp;
+		*(s + k) = t;
 		j++, k--;
 	}
 }	
