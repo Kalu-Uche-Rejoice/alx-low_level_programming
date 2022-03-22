@@ -9,14 +9,14 @@ void print_rev(char *s)
 {
 	int i = 0;
 	char t;
+	int j = 0;
+	int k = i - 1;
+
 	while (*s != '\0')
 	{
 		i += 1;
 		s++;
 	}
-	int j = 0;
-	int k = i - 1;
-	
 	while (j < k)
 	{
 		t = *(s + j);
