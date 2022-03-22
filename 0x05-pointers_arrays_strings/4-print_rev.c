@@ -22,7 +22,7 @@ void print_rev(char *s)
 		t = *(s + j);
 		*(s + j) = *(s + k);
 		*(s + k) = t;
-		_putchar(s);
+		_putchar(s[j]);
 		j++, k--;
 	}
 }
