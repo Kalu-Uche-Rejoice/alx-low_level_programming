@@ -17,12 +17,9 @@ void print_rev(char *s)
 	}
 	for (i--; i >= 0; i--)
 	{
-		for (k = 0; k < i; k--)
-		{
-			char temp = *(s + k);
+		char temp = *(s + i);
 		
-			_putchar(temp);
-		}
+		_putchar(temp);
 	}
 	_putchar('\n');
 }
