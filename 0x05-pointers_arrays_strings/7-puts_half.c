@@ -11,10 +11,10 @@ void puts_half(char *str)
 	int j = 0;
 	int check;
 
-	while (*s != '\0')
+	while (*str != '\0')
 	{
 		i += 1;
-		s++;
+		str++;
 	}
 	if (i % 2 == 0)
 	{
@@ -26,7 +26,7 @@ void puts_half(char *str)
 	}
 	while (j < i)
 	{
-		if (s[j] = '\0')
+		if (str[j] = '\0')
 		{
 			_putchar('\n');
 			break;
@@ -35,7 +35,7 @@ void puts_half(char *str)
 		{
 			if (j >= check)
 			{
-				_putchar(*(s + j);
+				_putchar(*(str + j));
 			}
 		}
 	}
