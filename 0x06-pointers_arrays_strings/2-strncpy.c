@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h";
 /**
  * _strncpy - function copies a string
  * Description: simmilar to strncpy built C function, uses for loops
@@ -15,5 +15,5 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = src[i];
 	}
-	return *dest;
+	return dest;
 }
