@@ -11,6 +11,7 @@ char *_strcat(char *dest, char *src)
 {
 	int count = 0;
 	int n = 0;
+	int i = 0;
 	
 	while (count >= 0)
 	{
@@ -29,7 +30,7 @@ char *_strcat(char *dest, char *src)
 		n++;
 	}
 	n = count + n;
-	for (int i = 0; i < n && src[i] != '\0'; i++)
+	for (; i < n && src[i] != '\0'; i++)
 	{
 		if(dest[count + i] == '\0')
 		{
