@@ -6,6 +6,7 @@
  * length, uses for loop
  * @dest: destination
  * @src: source string
+ * @n: number of characters to copy from src
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
