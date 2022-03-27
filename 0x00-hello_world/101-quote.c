@@ -1,10 +1,11 @@
 #include <stdio.h>
-/**main - entry point
- * Description: outputs specific string
+/**
+ * main - entry point
+ * description: outputs specific string
  * Return: 1
  */
-int main (void)
+int main(void)
 {
-	fprintf(stderr, "and that peice of art is useful\" - Dora Korpar, 2015-10-19");
+	fprintf(stderr,"and that peice of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
