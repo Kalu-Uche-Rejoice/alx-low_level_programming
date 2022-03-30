@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * print_diagsums - print the sum of the diagonals
@@ -21,7 +21,7 @@ void print_diagsums(int *a, int size)
 			n = j - 1;
 			m = size - j;
 			i += *(a + count + n);
-			k += *(a + count + n);
+			k += *(a + count + m);
 		}
 	}
 	printf("%d, %d", i, k);

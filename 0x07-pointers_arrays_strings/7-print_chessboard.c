@@ -10,12 +10,12 @@ void print_chessboard(char (*a)[8])
 {
 	int count, total = 64;
 
-	for(count = 0; count < total; count++;)
+	for(count = 0; count < total; count++)
 	{
-		if (count % size == 0 && count != 0)
+		if (count % total == 0 && count != 0)
 		{
-			_putchar('\n);
+			_putchar('\n');
 		}
-		_putchar(*(a + count));
+		_putchar((*a)[count]);
 	}
 }
