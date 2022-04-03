@@ -17,7 +17,7 @@ char *cap_string(char *a)
 			if (*(a + 0) >= 97 && (*(a + 0) <= 122))
 			{
 				*(a + 0) = *(a + 0) - 32;
-			}	
+			}
 			if (*(a + j) == ascii[i])
 			{
 				c = j + 1;
@@ -31,5 +31,4 @@ char *cap_string(char *a)
 	}
 	return (a);
 }
-
 

@@ -9,7 +9,7 @@ char *leet(char *a)
 {
 	int ascii[5] = {4, 3, 7, 0, 1};
 	int cap[5] = {65, 69, 79, 84, 76};
-	int small[5] = {97, 101, 111, 116, 108}
+	int small[5] = {97, 101, 111, 116, 108};
 	int i = 0, j;
 	
 	while (*(a + i) != '\0')
