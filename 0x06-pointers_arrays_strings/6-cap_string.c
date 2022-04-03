@@ -21,7 +21,7 @@ char *cap_string(char *a)
 	{
 		for (i = 0; i < 13; i++)
 		{
-			if (*(a + j) == ascii[i])
+			if (*(a + (j + 1)) == ascii[i])
 			{
 				*(a + (j + 1)) == *(a + (j + 1 )) -32;
 				break;
