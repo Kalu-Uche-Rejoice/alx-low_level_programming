@@ -24,5 +24,5 @@ void print_diagsums(int *a, int size)
 			k += *(a + count + m);
 		}
 	}
-	printf("%d, %d \n", i, k);
+	printf("%d, %d\n", i, k);
 }
