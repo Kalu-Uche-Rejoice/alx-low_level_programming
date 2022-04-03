@@ -30,5 +30,6 @@ char *cap_string(char *a)
 		j++;
 	}
 	return (a);
+}
 
 
