@@ -23,7 +23,7 @@ char *cap_string(char *a)
 		{
 			if (*(a + j) == ascii[i])
 			{
-				(a + (j + 1)) = *(a + (j + 1 )) -32;
+				*(a + (j + 1)) = *(a + (j + 1 )) -32;
 			}
 		}
 		j++;
