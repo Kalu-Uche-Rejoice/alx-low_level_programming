@@ -24,7 +24,6 @@ char *cap_string(char *a)
 			if (*(a + (j + 1)) == ascii[i])
 			{
 				*(a + (j + 1)) == *(a + (j + 1 )) -32;
-				break;
 			}
 		}
 		j++;
