@@ -8,7 +8,7 @@
 char *cap_string(char *a)
 {
 	int ascii[13] = {9, 10, 32, 33, 34, 40, 41, 44, 46, 59, 63, 123, 125};
-	int i, j = 0;
+	int i, j = 0, c;
 
 	while (*(a + j) != '\0')
 	{
@@ -16,7 +16,8 @@ char *cap_string(char *a)
 		{
 			if (*(a + j) == ascii[i])
 			{
-				if ((*(a + (j + 1)) >= 97) && (*(a + (j + 1) <= 122)))
+				c = j + 1;
+				if (*(a + c) >= 97 && (*(a + c) <= 122))
 				{
 					*(a + (j + 1)) = *(a + (j + 1 )) -32;
 				}
