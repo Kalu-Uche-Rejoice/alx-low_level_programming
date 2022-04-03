@@ -19,15 +19,4 @@ void reverse_array(int *a, int n)
 		*(a + end) = tmp;
 		beg++, end--;
 	}
-	while (i < n)
-	{
-		_putchar('0' + *(a + i));
-		if (i != (n - 1))
-		{
-			_putchar(',');
-			_putchar(' ');
-		}
-		i++;
-	}
-	_putchar('\n');
 }
