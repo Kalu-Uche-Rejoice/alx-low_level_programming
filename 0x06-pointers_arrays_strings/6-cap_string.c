@@ -7,22 +7,28 @@
  */
 char *cap_string(char *a)
 {
+	int ascii[13] = {9, 10, 32, 33, 34, 40, 41, 44, 46, 59, 63, 123, 125};
 	int i, j = 0;
-	int ascii[11] = {32, 33, 41, 44, 46, 34, 59, 40, 63, 123, 125};
 
-	while (j >= 0)
+	while (*(a + j) != '\0')
 	{
-		for (i = 0; i < 11; i++)
+		if (*(a + j) >= 97 && *(a + j) <= 122)
 		{
-			if (a[j] == ascii[i])
-			{
-				a[j + 1] = a[j + 1] - 32;
-			}
-		}
-		if (a[j] == '\0')
-		{
-			break;
+			*(a + j) = *(a + j) -32;
 		}
 	}
-	return a;
-}
+	while (*(a + j) != '\0')
+	{
+		for (i = 0; i < 13; i++)
+		{
+			if (*(a + j) == ascii[i])
+			{
+				*(a + (j + 1)) == *(a + (j + 1 )) -32;
+				break;
+			}
+		}
+		j++;
+	}
+	return (a);
+
+
