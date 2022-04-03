@@ -11,7 +11,7 @@ void print_diagsums(int *a, int size)
 {
 	int m, n;
 	int i = 0, j = 0, k = 0;
-	int count, total = size *size;
+	int count, total = size * size;
 
 	for (count = 0; count < total; count++)
 	{
@@ -24,5 +24,5 @@ void print_diagsums(int *a, int size)
 			k += *(a + count + m);
 		}
 	}
-	printf("%d, %d", i, k);
+	printf("%d, %d \n", i, k);
 }
