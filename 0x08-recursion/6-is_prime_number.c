@@ -4,6 +4,7 @@
  * @n: integer to be tested
  * Return: 1 for prime number 0 otherwise
  */
+int prime(int n, int g);
 int is_prime_number(int n)
 {
 	return (prime(n, 2));
