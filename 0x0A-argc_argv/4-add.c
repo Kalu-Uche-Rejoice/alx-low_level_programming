@@ -6,7 +6,7 @@
  * @argv: array of pointers to arguments
  * Return: zero
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int i = 1;
 	int sum = 0;
