@@ -8,7 +8,7 @@
  */
 char *_strdup(char *str)
 {
-	char newString;
+	char *newString;
 	int count = 0;
 	int i = 0;
 	
@@ -31,7 +31,7 @@ char *_strdup(char *str)
 	}
 	while (i >= 0)
 	{
-		*(newString + i) == *(str + i);
+		*(newString + i) = *(str + i);
 		if (*(str + i) == '\0')
 		{
 			break;
