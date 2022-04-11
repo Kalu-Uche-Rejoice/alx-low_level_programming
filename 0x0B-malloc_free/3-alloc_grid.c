@@ -7,7 +7,7 @@
  * @height: number of rows in array
  * Return pointer to array
  */
-int **alloc_grid(int width, int heighti)
+int **alloc_grid(int width, int height)
 {
 	int  **row;
 	int i, j;
