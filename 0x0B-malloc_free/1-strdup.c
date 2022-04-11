@@ -37,4 +37,5 @@ char *_strdup(char *str)
 			break;
 		}
 	}
+	return (newString);
 }
