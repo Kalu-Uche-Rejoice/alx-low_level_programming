@@ -16,7 +16,7 @@ typedef struct dog
 } dog;
 /**
  * init_dog - initialize a variable of type dog
- * @struct dod *d: structure to be initialized
+ * @d: structure to be initialized
  * @name: name of dog
  * @age: age of dog
  * @owner: name of owner
