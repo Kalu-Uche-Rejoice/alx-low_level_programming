@@ -1,3 +1,5 @@
+#ifndef DOG
+#define DOG
 /**
  * struct dog - initialize variable
  * @name: name of dog
@@ -11,4 +13,14 @@ typedef struct dog
 	char *name;
 	float age;
 	char *owner;
-}dog;
+} dog;
+/**
+ * init_dog - initialize a variable of type dog
+ * @struct dod *d: structure to be initialized
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: name of owner
+ * Return: void
+ */
+void init_dog(struct dog *d, char *name, float age, char *owner);
+#endif
