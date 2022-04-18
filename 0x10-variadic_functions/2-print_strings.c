@@ -3,22 +3,30 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_numbers - function prints numbers then new line
+ * print_strings - function prints strings then new line
  * @separator: string to separate numbers
- * @n: number of numbers
+ * @n: number of strings
  * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int count;
 	va_list args;
-	int num;
+	char *p;
 
 	va_start(args, n);
 	for (count = 0; count < n; count++)
 	{
-		num = va_arg(args, int);
-		printf("%d", num);
+		p = va_arg(args, char *);
+		if (p != NULL)
+		{
+			printf("%s", p);
+		}
+		else
+		{
+
+			printf("(null)");
+		}
 		if (count < (n - 1) && separator != NULL)
 		{
 			printf("%s", separator);
