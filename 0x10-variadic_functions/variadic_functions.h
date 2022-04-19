@@ -1,5 +1,6 @@
 #ifndef VARIADIC
 #define VARIADIC
+#include <stdarg.h>
 /**
  * sum_them_all - function to sum a varying number of parameters
  * @n: tells nummber of parameters
@@ -29,6 +30,6 @@ void print_all(const char * const format, ...);
 typedef struct dataType
 {
 	char letter;
-	void (*func)(va_list);
+	void (*func)(va_list valist);
 }data_type;
 #endif
