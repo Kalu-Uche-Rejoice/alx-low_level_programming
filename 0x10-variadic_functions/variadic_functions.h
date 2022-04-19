@@ -20,4 +20,15 @@ void print_numbers(const char *separator, const unsigned int n, ...);
  * Return: void
  */
 void print_strings(const char *separator, const unsigned int n, ...);
+void print_all(const char * const format, ...);
+/**
+ * struct dataType -struct
+ * @letter: char identifying data type
+ * @func: function pointer
+ */
+typedef struct dataType
+{
+	char letter;
+	void (*func)(va_list);
+}data_type;
 #endif
