@@ -7,23 +7,20 @@
  * @str: string to be added to list
  * Return: pointer to new node
  */
-list_t *add_node_end(list_t **head,const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *newNode, *temp;
-	
+
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	
 	newNode = malloc(sizeof(list_t)); /*reserves memory for new node*/
+	if (newNode = NULL)
+		return (NULL);
 	newNode->str = strdup(str);
 	newNode->len = strlen(str);
 	newNode->next = NULL;
-	if (newNode == NULL)
-	{
-		return (NULL);
-	}
 	if (*head == NULL)
 	{
 		*head = newNode;
