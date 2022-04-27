@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stlib.h>
+#include <stdlib.h>
 /**
  * free_list - freaas a list_t
  * @head: pointer to first element of list
