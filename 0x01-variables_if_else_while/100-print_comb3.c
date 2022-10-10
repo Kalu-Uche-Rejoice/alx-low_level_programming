@@ -18,8 +18,8 @@ int main(void)
 			{
 				putchar(n);
 				putchar(count);
+				putchar(',');
 				putchar(' ');
-				putchar('/n');
 			}
 			count ++;
 		}
