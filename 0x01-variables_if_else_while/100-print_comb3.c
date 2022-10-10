@@ -8,17 +8,21 @@
 int main(void)
 {
 	int n = '0';
+	int count = '0';
 
 	while (n <= '9')
 	{
-		if ( n == 9)
+		while (count <= '9')
 		{
-			putchar(n);
-			break;
+			if (count != n)
+			{
+				putchar(n);
+				putchar(count);
+				putchar(' ');
+				putchar('/n');
+			}
+			count ++;
 		}
-		putchar(n);
-		putchar(',');
-		putchar(' ');
 		n++;
 	}
 	putchar('\n');
